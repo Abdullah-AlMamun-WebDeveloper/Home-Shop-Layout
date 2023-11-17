@@ -1,0 +1,293 @@
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+
+    .container, .container-sm {
+        max-width: 540px;
+      }
+
+    .d-sm-block {
+      display: block !important;
+    }
+    .col-sm-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+    
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+    .col-md-4 {
+      width: 33.33333333%;
+    }
+    .col-md-5 {
+      width: 41.66666667%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .text-md-start {
+      text-align: left !important;
+    }
+    .text-md-end {
+      text-align: right !important;
+    }
+    .justify-content-md-end {
+      justify-content: flex-end !important;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+
+  .d-lg-block {
+    display: block !important;
+  }
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px;
+    }
+
+    #top-cart {
+      position: relative;
+    }
+
+    .top-cart-content {
+        opacity: 0;
+        position: absolute;
+        width: 280px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 2px solid rgb(26, 188, 156);
+        top: 40px;
+        right: 0;
+        margin: -10000px 0 0;
+        z-index: auto;
+        transition: opacity .5s ease,top .4s ease;
+    }
+    .col-lg {
+      flex: 1 0 0%;
+    }
+    .col-lg-auto {
+      flex: 0 0 auto;
+      width: auto;
+      margin-top: 0 !important;
+    }
+    .col-lg-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+    .col-lg-8 {
+      width: 66.66666667%;
+    }
+    .col-lg-4 {
+      width: 33.33333333%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+    .col-xl-8 {
+      flex: 0 0 auto;
+      width: 66.66666667%;
+    }
+    .col-xl-4 {
+      flex: 0 0 auto;
+      width: 30.33333333%;
+    }
+    .col-xl-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+}
+
+
+
+/**************************************** max-width ***************************************/
+
+
+@media (max-width: 1200px) {
+  .flexslider .slider-wrap .di-none {
+    display: none;
+  }
+
+  .slider-wrap {
+    transform: none;
+    width: 100% !important;
+  }
+  .flexslider .slider-wrap > .slide {
+    margin-left: 0;
+    flex-basis: 100%;
+  }
+  .align-items-stretch {
+    justify-content: center;
+  }
+  .min-vh-50 {
+    width: 100% !important;
+  }
+  .align-items-stretch img {
+    max-width: 100% !important;
+  }
+  .or-g4 {
+    margin: 0;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .max-w {
+    width: 100% !important;
+  }
+  .col-xl-12 {
+    width: 49%;
+  }
+  .content-wrap {
+    padding: 4rem 0;
+  }
+}
+
+
+
+
+
+@media (max-width: 991px) {
+  .primary-menu {
+    display: none;
+  }
+  .primary-menu-trigger {
+    display: block;
+    opacity: 1;
+    z-index: 999;
+  }
+  #header {
+    border: none;
+    padding-top: 10px;
+  }
+  #header-wrap {
+    position: initial !important;
+  }
+  .header-row{
+    flex-direction: initial;
+  }
+  .top-cart-content {
+    top: 45px;
+  }
+  .font-icon {
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+}
+
+
+
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 1.25rem !important;
+    line-height: 30px !important
+  }
+  .inner-gird h4 {
+    margin-bottom: 0px !important;
+  }
+  form {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .justi-center {
+    justify-content: center;
+    text-align: center;
+  }
+  .dark .container .or-mar {
+    margin-bottom: 0px !important;
+  }
+}
+
+
+
+
+@media (max-width: 575px) {
+  .align-items-stretch, .mb-0, .row5 {
+    padding: 0 10px;
+  }
+  .or-g4 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+  .col-lg-4 {
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #recent-shop-list-sidebar .grid-inner {
+    margin-top: 0px;
+  }
+  .row5 h4 {
+    font-size: 1rem;
+  }
+  .mar-bi {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  .widget .short-mar h5 {
+    padding-left: 0px !important;
+  }
+  .font-icon {
+    justify-content: center;
+  }
+  .none-di {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 364px) {
+  .col-md-3 {
+    width: 100%;
+  }
+  .ms-1 small {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+
+
+
+
